@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.color_white {
+    color: white;
+}
+
+/*strt header*/
+
+header {
+    width: 100%;
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 250px;
+    opacity: .5;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 100px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header .our_rest {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/*start about section*/
+
+.about_sec {
+    overflow: hidden;
+    width: 100%;
+    background-color: #f8f2e8;
+    padding: 5%;
+}
+
+.about_sec img {
+    float: left;
+    width: Calc(85%/2);
+}
+
+.about_sec .about {
+    float: right;
+    width: Calc(85%/2);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about_sec .about h3 {
+    color: orange;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.about_sec .about h2 {
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #948d85;
+    padding: 20px 0;
+}
+
+.about_sec .about .imgs {
+    margin: 10px auto ;
+}
+
+.about_sec .about .icon {
+    width: 15%;
+    height: 50px;
+    float: none;border-radius: 50%;
+}
+
+.about_sec .about .best {
+    font-size: 30px;
+}
+
+.about_sec .about .peter {
+    font-size: 20px;
+    color: black;
+}
+
+/*jonathan_blair*/
+
+.jon_blair {
+    background-color: #978d8d;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jon_blair .contain {
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.jon_blair .contain img {
+    border-radius: 50%;
+}
+
+.jon_blair .contain .jon {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 25px;
+}
+
+.jon_blair .contain .about_jon {
+    padding-top: 20px;
+}
+
+.jon_blair .contain .jon_signature {
+    font-family: cursive;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+/*visit us*/
+
+.visit_us {
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.visit_us .visit_contain {
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+.visit_us .visit_contain .loc{
+    color: orange;
+    font-family: fantasy;
+    margin: 25px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.visit_us .visit_contain .loc_disc{
+    color: white;
+}
+
+.visit_us .pic_loc {
+    width: 50%;
+    float: right;
+    height: 350px;   
+}
+
+/*contact us*/
+
+.cotact_us {
+    width: 100%;
+    overflow: hidden;   
+}
+
+.contact_us .map {
+    width: 50%;
+    float: left;
+}
+
+.contact_us .contact {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.contact_us .quest {
+    padding-top: 35px;
+    color: orange;
+    font-family:cursive ;
+}
